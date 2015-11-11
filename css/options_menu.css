@@ -1,0 +1,263 @@
+.options-menu-container{
+}
+.options-menu{
+    display: inline-block;
+}
+#phishyearsoptionsarea{
+    display: inherit;
+}
+.options-buttons-container {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width:115px;
+}
+
+.rand-button-container {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:20px;
+}
+
+.multiselect-container {
+    position:absolute;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+    background-color: #111111;
+}
+.multiselect-container .input-group{
+    margin:5px
+}
+.multiselect-container input{
+    opacity: 0 /*used to remove the checkboxes, remove this line if you want checkboxes*/
+}
+.multiselect-container li{
+    padding:0
+}
+.multiselect-container li a.multiselect-all label{/*the select all label*/
+    font-weight:700;
+    color: #00CCFF;
+}
+.multiselect-container li.multiselect-group label{/*the group names*/
+    margin:0;
+    padding:3px 20px 3px 20px;
+    height:100%;
+    width: 100%;
+    font-weight:700;
+    background-color: #222222;
+    color: #00CCFF;
+}
+.multiselect-container li.multiselect-group-clickable label{
+    cursor:pointer
+}
+.multiselect-container li a{
+    padding:0
+}
+.multiselect-container li a label{/*the unselected options*/
+    margin:0;
+    height:100%;
+    cursor:pointer;
+    font-weight:400;
+    font-size: 120%;
+    padding:3px 20px 3px 40px;
+    color: #CCFFFF;
+    background-color: #111111;
+}
+.multiselect-container li.multiselect-selected a label{/*the selected options*/
+    margin:0;
+    height:100%;
+    cursor:pointer;
+    font-weight:900;
+    font-size: 120%;
+    padding:3px 20px 3px 40px;
+    color: #0099cc;
+    background-color: #111111;
+}
+.multiselect-container li a.multiselect-all label{/*the select all label repeated here because it has to be after the selected options*/
+    font-weight:700;
+    color: #00CCFF;
+}
+
+.multiselect-container li a label.radio,.multiselect-container li a label.checkbox{
+    margin:0
+}
+.multiselect-container li a label input[type=checkbox]{
+    margin-bottom:5px
+}
+.btn-group .btn-group:nth-child(2) .multiselect.btn{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px
+}
+.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{
+    padding:3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{
+    margin-left:-20px;
+    margin-right:0
+}
+
+.btn-phish {
+    display: inline-block;
+    padding: 6px 12px;
+    width: 110px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #00CCFF;
+    background-color: #222222;
+    border-color: #000;
+}
+.btn-phish:hover,
+.btn-phish:focus,
+.btn-phish:active,
+.btn-phish.active {
+    color: #00CCFF;
+    background-color: #222222;
+    border-color: #000000;
+}
+.btn-phish.disabled:hover,
+.btn-phish.disabled:focus,
+.btn-phish.disabled:active,
+.btn-phish.disabled.active,
+.btn-phish[disabled]:hover,
+.btn-phish[disabled]:focus,
+.btn-phish[disabled]:active,
+.btn-phish[disabled].active,
+fieldset[disabled] .btn-phish:hover,
+fieldset[disabled] .btn-phish:focus,
+fieldset[disabled] .btn-phish:active,
+fieldset[disabled] .btn-phish.active {
+    background-color: #222222;
+    border-color: #000000;
+}
+
+
+.controlIcon{
+    margin-bottom: 10px;
+}
+
+.btn-controls {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    width:40px;
+    height:40px;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #000000;
+    border-color: #00CCFF;
+}
+.btn-controls:hover,
+.btn-controls:focus,
+.btn-controls:active,
+.btn-controls.active {
+    background-color: #000000;
+    border-color: #00CCFF;
+}
+.btn-controls.disabled:hover,
+.btn-controls.disabled:focus,
+.btn-controls.disabled:active,
+.btn-controls.disabled.active,
+.btn-controls[disabled]:hover,
+.btn-controls[disabled]:focus,
+.btn-controls[disabled]:active,
+.btn-controls[disabled].active,
+fieldset[disabled] .btn-controls:hover,
+fieldset[disabled] .btn-controls:focus,
+fieldset[disabled] .btn-controls:active,
+fieldset[disabled] .btn-controls.active {
+    background-color: #000000;
+    border-color: #00ccff;
+}
+
+
+
+
+.btn-playNext {
+    display: inline-block;
+    /*padding: 6px 12px;*/
+    /*width: 300px;*/
+    margin-bottom: 0;
+    font-size: 80%;
+    margin-left: 20px;
+    /*font-weight: 700;*/
+    /*line-height: 1.42857143;*/
+    /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*vertical-align: middle;*/
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #CCFFFF;
+    border-radius: 4px;
+    color: #CCFFFF;
+    background-color: transparent;
+    /*border-color: #000;*/
+}
+.btn-playNext:hover,
+.btn-playNext:focus,
+.btn-playNext:active,
+.btn-playNext.active {
+    color: #CCFFFF;
+    background-color: transparent;
+    /*border-color: #000000;*/
+}
+.btn-playNext.disabled:hover,
+.btn-playNext.disabled:focus,
+.btn-playNext.disabled:active,
+.btn-playNext.disabled.active,
+.btn-playNext[disabled]:hover,
+.btn-playNext[disabled]:focus,
+.btn-playNext[disabled]:active,
+.btn-playNext[disabled].active,
+fieldset[disabled] .btn-playNext:hover,
+fieldset[disabled] .btn-playNext:focus,
+fieldset[disabled] .btn-playNext:active,
+fieldset[disabled] .btn-playNext.active {
+    background-color: transparent;
+    /*border-color: #000000;*/
+}
+ul.playlist li.sm2_playing .btn-playNext,
+ul.playlist li.sm2_paused .btn-playNext,
+ul.playlist li.sm2_playing:hover .btn-playNext,
+ul.playlist li.sm2_paused:hover .btn-playNext{
+    color: #0099CC;
+    border-color: #0099CC;
+}

@@ -1,0 +1,417 @@
+body{
+    width: 100%;
+    margin: auto;
+    background-color: #000000;
+}
+.header {
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    background: #000000;
+    opacity: 1;
+    padding-bottom: 5px;
+}
+div.actualHeader{
+    width: 100%;
+    display: inline-block;
+}
+div.twitterHeader{
+    width:22%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.twitterLogoHeader{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 3px;
+    background: transparent;
+}
+a#twitterLinkHeader,
+a#twitterLinkHeader:hover {
+    font-size: 2.5em;
+    color: #CCFFFF;
+    text-decoration: none;
+}
+img.PJJlogo{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div.mainTitleDiv{
+    width: 48%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    display: inline-block;
+}
+h1.mainTitle{
+    width: 100%;
+    border-bottom: none;
+    text-align: center;
+    background-color:#000000;
+    color:#00CCFF;
+    font-size: 600%;
+    /*float: none;*/
+}
+div.contactArea{
+    font-family:verdana,arial,tahoma,"sans serif",system;
+    background-color: #000000;
+    display: inline-block;
+    height: 51px;
+    width: 28%;
+    /*float: right;*/
+}
+div.contactArea .contactLinksArea{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: right;
+    /*width:120px;*/
+}
+a.contactLinksContact{
+    margin-right: 20px;
+    font-size: 2.5em;
+    color: #CCFFFF;
+    text-decoration: none;
+}
+a.contactLinksContact:hover {
+    color: #0099cc;
+    text-decoration: none;
+}
+a.contactLinksLegal{
+    margin-right: 0px;
+    font-size: 2.5em;
+    color: #CCFFFF;
+    text-decoration: none;
+}
+a.contactLinksLegal:hover {
+    color: #0099cc;
+    text-decoration: none;
+}
+
+
+
+.content{
+    margin: 286px auto;
+    opacity: 0.99;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.pjj{
+    width: 100%;
+    margin: auto;
+}
+.scriptarea{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+div.nowPlaying,
+div.np_playing,
+div.np_paused {
+    height: 155px;
+    color: #0099CC;
+    font-size:3em;
+    padding:0.375em 0.75em 0.375em 0.75em;
+    border:2px solid #111111;
+    border-radius:2px;
+    /*border:none;*/
+    letter-spacing:-1px; /* ZOMG WEB X.0. ;) */
+    background-color:#000000;
+    -webkit-transition-property: hover;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s linear 0s; /* firefox 4 */
+    -o-transition-property: background-color; /* opera 10.5 */
+    -o-transition-duration: 0.15s;
+    /*background-color: #ff0000;*/
+}
+div.np_playing {
+    background: #111111;
+}
+
+div.nowPlaying .npHeader,
+div.np_playing .npHeader,
+div.np_paused .npHeader {
+    color: #00CCFF;
+    width: 100%;
+}
+
+div.nowPlaying .npHeader .npHeaderInfo,
+div.np_playing .npHeader .npHeaderInfo,
+div.np_paused .npHeader .npHeaderInfo {
+    float: right;
+}
+
+
+/**/
+div.nowPlaying span.npTitle,
+div.np_playing span.npTitle,
+div.np_paused span.npTitle {
+    font-size: 1.5em;
+}
+div.nowPlaying span.npVenue,
+div.np_playing span.npVenue,
+div.np_paused span.npVenue {
+    float: left;
+    margin-right: 5px;
+}
+div.nowPlaying div.timing,
+div.np_playing div.timing,
+div.np_paused div.timing {
+    float: right;
+}
+div.nowPlaying a,/* there's a hidden link that must be there for some annoying reason, so we want it blend in with the background*/
+div.np_playing a,
+div.np_paused a {
+    color: #000;
+    text-decoration: none;
+}
+div.np_playing a{
+    color: #111111;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+div.icons-and-controls {
+    width: 100%;
+    height: 50px;
+}
+
+div.controls-container{
+    height: 100%;
+    width: 84%;
+    float: left;
+}
+
+div.nowPlaying .icons-and-controls .controls-container .controls,
+div.np_playing .icons-and-controls .controls-container .controls,
+div.np_paused .icons-and-controls .controls-container .controls {
+    width: 100%;
+    /*position:relative;*/
+    /*display:block;*/
+}
+
+div.nowPlaying .icons-and-controls .icons,
+div.np_playing .icons-and-controls .icons,
+div.np_paused .icons-and-controls .icons {
+    width: 15%;
+    margin-right: 5px;
+    margin-top: 5px;
+    float:left;
+}
+/**/
+div.nowPlaying:hover .icons-and-controls .controls-container .controls .statusbar,
+div.np_playing:hover .icons-and-controls .controls-container .controls .statusbar,
+div.np_paused:hover .icons-and-controls .controls-container .controls .statusbar {
+    /*position:relative;*/
+    margin-top: 0.7em;
+    cursor:-moz-grab;
+    cursor:-webkit-grab;
+    cursor:grab;
+}
+/**/
+div.np_paused .icons-and-controls .controls-container .controls .statusbar {
+    background-color:#0099CC;
+}
+/**/
+div.nowPlaying .icons-and-controls .controls-container .controls,
+div.np_playing .icons-and-controls .controls-container .controls,
+div.np_paused .icons-and-controls .controls-container .controls {
+    /*position:relative;*/
+    margin-top:0.375em;
+    margin-bottom:0.375em;
+    background-color:#99ccff;
+}
+/**/
+div.nowPlaying .icons-and-controls .controls-container .controls .statusbar,
+div.np_playing .icons-and-controls .controls-container .controls .statusbar,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar { /* Hey, this controls whether or not we see a statusbar, but it doesn't actually show progress */
+    position:relative;
+    margin-top: 0.7em;
+    height:0.75em;
+    border:2px solid #0099cc;
+    border-radius:2px;
+    overflow:hidden;
+    cursor:-moz-grab;
+    cursor:-webkit-grab;
+    cursor:grab;
+}
+/**/
+div.np_playing .icons-and-controls .controls-container .controls.dragging .statusbar,
+div.np_paused .icons-and-controls .controls-container .controls.dragging .statusbar {
+    cursor:-moz-grabbing;
+    cursor:-webkit-grabbing;
+    cursor:grabbing;
+}
+/**/
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .position,
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .loading,
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .annotation,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .position,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .loading,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .annotation {
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:0.75em;
+}
+/**/
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .position { /* This allows us to see our progress on the statusbar*/
+    background-color:#0099cc;
+    border-right:3px solid #336699;
+    border-radius:3px;
+}
+/**/
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .position {
+    background-color:#0099AA;
+    border-right:3px solid #336699;
+    border-color:#666;
+}
+/**/
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .loading,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .loading {
+    background-color:#000;
+}
+/**/
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .position,
+div.np_playing .icons-and-controls .controls-container .controls .statusbar .loading,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .position,
+div.np_paused .icons-and-controls .controls-container .controls .statusbar .loading {
+    width:0px;
+}
+/**/
+div.np_playing a.sm2_link,
+div.np_paused a.sm2_link {
+    margin-right:6.75em; /* room for timing stuff */
+}
+
+div.np_playing .timing,
+div.np_paused .timing {   /* Describes how the timing box will look, but does not show it*/
+    float: right;
+}
+div.np_playing:hover .timing,
+div.np_paused:hover .timing {/* not sure */
+ z-index:2;
+}
+/**/
+div.np_playing .timing div.sm2_timing,
+div.np_paused .timing div.sm2_timing { /* not sure */
+    /*margin:0px;*/
+    /*padding:0px;*/
+    /*margin-top:-1em;*/
+}
+/**/
+div.np_playing .timing,
+div.np_paused .timing { /* Displays the timing box */
+    display:inline;
+}
+/**/
+div.np_paused .timing .sm2_position {
+    /*text-decoration:blink; /!* hee hee. first actual appropriate use? :D *!/*/
+}
+/**/
+div.np_paused .timing {/**/
+    /*background-color:#888;*/ /*commented because I don't want the timing box to have a color*/
+    /*border-color:#ccc;*/
+}
+
+
+
+
+
+
+
+
+
+.btn-aboutArea {
+    display: inline-block;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #CCFFFF;
+    font-size: 2.5em;
+}
+.btn-aboutArea:focus,
+.btn-aboutArea:active,
+.btn-aboutArea.active {
+    background-color: #000000;
+}
+.btn-aboutArea:hover{
+    color: #0099cc;
+}
+
+.btn-aboutArea.disabled:hover,
+.btn-aboutArea.disabled:focus,
+.btn-aboutArea.disabled:active,
+.btn-aboutArea.disabled.active,
+.btn-aboutArea[disabled]:hover,
+.btn-aboutArea[disabled]:focus,
+.btn-aboutArea[disabled]:active,
+.btn-aboutArea[disabled].active,
+fieldset[disabled] .btn-aboutArea:hover,
+fieldset[disabled] .btn-aboutArea:focus,
+fieldset[disabled] .btn-aboutArea:active,
+fieldset[disabled] .btn-aboutArea.active {
+    background-color: #000000;
+}
+
+
+.aboutAreaP{
+    font-size: 2.5em;
+    color: #CCFFFF;
+}
+
+.aboutAreaH1{
+    background-color: transparent;
+    border-bottom: none;
+    font-size: 4.5em;
+    color: #0099CC;
+}
+
+.twitter-share-button{
+    margin-left: 10px;
+}
+
+
+.facebookLogo{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    background: transparent;
+    vertical-align: top;
+}
+
+.twitterLogo{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    background: transparent;
+}
+
+.phishnet_logo{
+    height: 20px;
+    width: 20px;
+    background: transparent;
+}
